@@ -1,0 +1,19 @@
+.frontpage {
+    display: flex; 
+    flex-direction: column;
+    text-align: center;
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.card {
+    width: 25rem;
+    height: 60rem;
+    margin: auto;
+    object-fit: cover;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}

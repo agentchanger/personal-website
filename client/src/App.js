@@ -1,8 +1,8 @@
 import './App.css';
-import Frontpage from './Frontpage/Frontpage';
-import Navbar from './Navigation/Navbar';
 import { Routes, Route } from 'react-router-dom';
 import Blog from './Blog/Blog'
+import Frontpage from './Frontpage/Frontpage';
+import Navbar from './Navigation/Navbar';
 import Portfolio from './Portfolio/Portfolio';
 
 function App() {
