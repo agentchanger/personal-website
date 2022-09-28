@@ -1,9 +1,10 @@
 import './App.css';
 import { Routes, Route } from 'react-router-dom';
-import Blog from './Blog/Blog'
-import Frontpage from './Frontpage/Frontpage';
-import Navbar from './Navigation/Navbar';
-import Portfolio from './Portfolio/Portfolio';
+import Blog from './Components/Blog/Blog'
+import Frontpage from './Components/Frontpage/Frontpage';
+import Footer from './Components/Footer/Footer';
+import Navbar from './Components/Navigation/Navbar';
+import Portfolio from './Components/Portfolio/Portfolio';
 
 function App() {
   return (
@@ -17,6 +18,11 @@ function App() {
         <Route path="/portfolio" element={<Portfolio/>}></Route>
         <Route path="/blog" element={<Blog/>}></Route>
       </Routes>
+
+      <h1>This is above footer</h1>
+      <footer>
+        <h1>This is footer</h1>
+      </footer>
     </div>
   );
 }

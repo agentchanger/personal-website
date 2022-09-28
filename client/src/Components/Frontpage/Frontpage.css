@@ -1,0 +1,35 @@
+.frontpage {
+    display: flex; 
+    flex-direction: column;
+    text-align: center;
+}
+
+.separator {
+    margin: 30px;
+}
+
+.text-intro {
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.card {
+    width: 25rem;
+    margin: auto;
+    object-fit: cover;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.card-image-top {
+    padding: 10px;
+}
+
+.card-subtitle {
+    font-size: small;
+}
