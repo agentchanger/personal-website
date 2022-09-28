@@ -16,7 +16,7 @@ const Frontpage = () => {
             <div class="separator"></div>
             <div class="cards">
                 <div class="card">
-                    <img class="card-img-top" src={Profile3} alt="Computer Science image"/>
+                    <img class="card-img-top" src={Profile3} alt="Computer Science"/>
                     <div class="card-body">
                         <h6 class="card-subtitle mb-2 text-muted"><em>Photo taken in front of Digital Systems Lab, SUTD; a memorable room.</em></h6>
                         <br></br>
@@ -30,7 +30,7 @@ const Frontpage = () => {
                     </div>
                 </div>
                 <div class="card">
-                    <img class="card-img-top" src={Profile2} alt="Indonesia image"/>
+                    <img class="card-img-top" src={Profile2} alt="Indonesia"/>
                     <div class="card-body">
                         <h6 class="card-subtitle mb-2 text-muted"><em>Photo taken in front of SUTD Sports Hall on 17th Aug 2022, Independence Day of Indonesia.</em></h6>
                         <br></br>
@@ -44,7 +44,7 @@ const Frontpage = () => {
                     </div>
                 </div>
                 <div class="card">
-                    <img class="card-img-top" src={Profile} alt="Travelling and Vlogs image"/>
+                    <img class="card-img-top" src={Profile} alt="Travelling and Vlogs"/>
                     <div class="card-body">
                         <h6 class="card-subtitle mb-2 text-muted"><em>Photo taken at Cloud Forest, Gardens by the Bay, Singapore, 2022.</em></h6>
                         <br></br>

@@ -19,10 +19,10 @@ function App() {
         <Route path="/blog" element={<Blog/>}></Route>
       </Routes>
 
-      <h1>This is above footer</h1>
-      <footer>
+      <div className='footer'>
         <h1>This is footer</h1>
-      </footer>
+      </div>
+      
     </div>
   );
 }
